@@ -33,3 +33,4 @@ client.on('messageReactionAdd', (reaction, user) => {
     });
     reaction.remove(user);
 });
+client.login(process.env.TOKEN)
