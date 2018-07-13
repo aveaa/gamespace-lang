@@ -1,0 +1,20 @@
+{
+  "name": "LanguageBot",
+  "description": "Bot for Discord server GameSpace",
+  "version": "1.0.0",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "npm": "6.0.1"
+  },
+  "dependencies": {
+    "discord.js": "11.3.0",
+    "express": "^4.16.3",
+    "get-image-colors": "1.8.1",
+    "ip": "^1.1.5",
+    "request": "2.81.0",
+    "rgbcolor": "1.0.1"
+  }
+}
