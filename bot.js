@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = Discord.Client();
+const client = new Discord.Client();
 
 client.on('ready', async () => {
     client.channels.get('466113074512789524').fetchMessage('466113221464424459');
